@@ -1,0 +1,45 @@
+/* Limit the width of main content */
+main {
+  max-width: 800px;
+  margin: 0 auto; /* center the content horizontally */
+}
+
+/* Style the aside section */
+aside {
+  width: 300px;
+  margin: 20px auto; /* auto centers horizontally */
+  border: 1px solid #333;
+  padding: 15px;
+  background-color: #f5f5f5; /* light gray background */
+  color: #222; /* dark text for good contrast */
+}
+
+/* Ensure aside image has correct aspect ratio */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Why height: auto is important:
+   It keeps the image’s aspect ratio intact (no distortion). 
+   If you forced both width and height, your image could look stretched or squished. */
+
+/* Make the profile image selector more specific */
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Reset padding for all paragraphs */
+p {
+  padding: 0;
+}
+
+/* Style footer */
+footer {
+  margin-top: 20px;          /* separates footer from content above */
+  border-top: 2px solid #333; /* adds distinction */
+  text-align: center;        /* centers footer text */
+  padding-top: 10px;         /* space inside footer above text */
+}
